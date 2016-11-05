@@ -1,0 +1,65 @@
+<html ng-app="mainApp">
+	<head>
+		<title>Stars of David - Awesome Jewish People</title>
+		<meta charset="UTF-8"/>
+		<meta name="description" content="Jewish actors, actresses, artists, celebrities, comedians, directors, inventors, models, musicians, philosophers, politicians, producers, scientists, singers, writers, and more."/>
+		<meta  name="keywords" content="actors, actresses, artists, awesome, celebrities, comedians, david, directors, famous, inventors, jew, jewish, jews, models, musicians, people, philosophers, politicians, producers, scientists, singers, stars, writers"/>
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>		
+		<script src="lib/angular.min.js"></script>
+		<script src="js/main-app.js"></script>
+		<script src="js/people.js"></script>
+		<script src="js/main-serv.js"></script>
+		<script src="js/main-ctrl.js"></script>
+	</head>
+	<body ng-controller="mainCtrl">
+		<div id="intro-panel" class="intro">
+			<div class="intro__text">
+				<span ng-repeat="letter in model.introTextLetters" id="intro-letter-{{letter.index}}" class="intro__letter">{{letter.text}}</span>
+			</div>
+			<div class="intro__stars">
+				<img src="img/star-of-david.png" id="intro-star-0" class="intro__star"/>
+				<img src="img/star-of-david.png" id="intro-star-1" class="intro__star"/>
+				<img src="img/star-of-david.png" id="intro-star-2" class="intro__star"/>
+			</div>
+		</div>
+		<div id="main-panel" class="main">
+			<div class="header">
+				<div class="header__title">{{model.headerTitle}}</div>
+				<div class="header__legend">
+					<div class="header__legend__item">
+						<img src="img/star-of-david.png" class="header__legend__star"/>
+						<img src="img/star-of-david.png" class="header__legend__star"/>
+						<img src="img/star-of-david.png" class="header__legend__star"/>
+						<span class="header__legend__text">{{model.threeStarDesc}}</span>
+					</div>
+					<div class="header__legend__item">
+						<img src="img/star-of-david.png" class="header__legend__star"/>
+						<img src="img/star-of-david.png" class="header__legend__star"/>
+						<span class="header__legend__text">{{model.twoStarDesc}}</span>
+					</div>
+					<div class="header__legend__item">
+						<img src="img/star-of-david.png" class="header__legend__star"/>
+						<span class="header__legend__text">{{model.oneStarDesc}}</span>
+					</div>
+				</div>
+			</div>
+			<div class="items">
+			    <div ng-repeat="item in model.items" id="person-{{item.index}}" class="person">
+				    <a href="{{item.wiki}}" target="_blank" class="person__link">
+				    	<img src="{{item.img}}" class="person__img"/>
+				    	<div class="person__info"></div>
+				    	<div class="person__name">{{item.name}}</div>
+				    	<img ng-if="item.score >= 1" src="img/star-of-david.png" class="person__star person__star-1"/>
+				    	<img ng-if="item.score >= 2" src="img/star-of-david.png" class="person__star person__star-2"/>
+				    	<img ng-if="item.score >= 3" src="img/star-of-david.png" class="person__star person__star-3"/>			    			    
+					</a>
+				</div>			   
+			</div>
+			<div class="footer">
+				<div class="footer__text">{{model.footerText}}</div>
+			</div> 
+		</div>
+	</body>
+</html>
+

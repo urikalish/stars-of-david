@@ -1,0 +1,203 @@
+@font-face {
+	font-family: "ITC Eras Light";
+	src: url('itc-eras-light.woff') format('woff');
+}
+
+* {
+	box-sizing: border-box;
+}
+
+html {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: "ITC Eras Light", sans-serif;
+	font-size: 16px;
+}
+
+body {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	background-color: #445;
+}
+
+a {
+	color: #fff;	
+}
+
+.intro {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	opacity: 1;
+	transition: 1s ease opacity;
+}
+
+.intro__text {
+	font-size: 60px;
+}
+
+.intro__letter {
+	color: #fff;
+	text-shadow: 1px 1px #000;
+	opacity: 0;
+}
+
+.intro__star {
+	margin-left: 10px;
+	margin-right: 10px;
+	height: 15px;
+	opacity: 0;
+}
+
+.main {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	min-width: 750px;
+	overflow: auto;
+	opacity: 0;
+	transition: 2.5s ease opacity;
+	background-color: #556;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	height: 80px;
+	line-height: 60px;
+	background-color: #445;
+}
+
+.header__title {
+	font-size: 60px;
+	text-shadow: 1px 1px #000;
+}
+
+.header__legend {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.header__legend__item {
+	height: 20px;
+	line-height: 20px;
+}
+
+.header__legend__item:nth-child(1) {
+	margin-left: 0;
+}
+
+.header__legend__item:nth-child(2) {
+	margin-left: 19px;
+}
+
+.header__legend__item:nth-child(3) {
+	margin-left: 38px;
+}
+
+.header__legend__star {
+	position: relative;
+	top: 2px;
+	height: 15px;	
+}
+
+.header__legend__text {
+	color: #ccc;
+}
+
+.items {
+	padding: 5px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.person {
+	position: relative;
+	display: inline-block;
+	margin: 5px;
+	width: 163px;
+	height: 240px;
+}
+
+.person__link {
+	cursor: pointer;
+	outline: none !important;
+}
+
+.person__img {
+	width: 163px;
+	height: 240px;
+	border: 1px solid #000;
+	border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    transition: 0.5s ease all;
+}
+
+.person__img:hover {
+	border: 1px solid #fff;	
+}
+
+.person__info {
+	height: 38px;
+	width: 100%;
+    position: absolute;    
+    bottom: 0;
+    left: 0;
+    background-color: #000;    
+    opacity: 0.5;
+    border-bottom-right-radius: 30px;
+}
+
+.person__name {
+	position: absolute;
+	left: 2px;
+	bottom: 18;
+	overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: calc(100% - 4px);
+}
+
+.person__star {
+	position: absolute;
+	bottom: 2px;
+	height: 15px;	
+}
+
+.person__star-1 {
+	left: 2px;
+}
+
+.person__star-2 {
+	left: 22px;
+}
+
+.person__star-3 {
+	left: 42px;
+}
+
+.footer {
+	display: flex;
+	justify-content: flex-end;
+	padding: 10px;
+	height: 40px;
+	line-height: 20px;
+	background-color: #445;
+}
+
+.footer__text {
+	font-size: 20px;
+}
