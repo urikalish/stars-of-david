@@ -21,7 +21,7 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
         $document[0].getElementById('intro-panel').style['display'] = 'none';
         $document[0].getElementById('main-panel').style['opacity'] = 1;
       }, 1000);
-    }, 12000);  
+    }, 11000);  
   }
 
   $scope.model = {
@@ -42,6 +42,6 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
 
   $timeout(function() {
     handleInto();
-  }, 0);
+  }, 1000);
 
 });
