@@ -23,7 +23,7 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
     var elm;
     for (i = 0; i < introText.length; i++) {
       elm = $document[0].getElementById('intro-letter-' + i);
-      elm.style['transition'] = '5s ease all ' + i*100 + 'ms';
+      elm.style['transition'] = '5s ease all ' + (i*100) + 'ms';
       elm.style['opacity'] = '1';
     }
     for (i = 0; i < 3; i++) {
@@ -31,7 +31,7 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
       elm.style['transition'] = '5s ease all ' + (1500 + i*250) + 'ms';
       elm.style['opacity'] = '1';
     }
-  }, 0);
+  }, 2500);
 
   $timeout(function() {
     $document[0].getElementById('intro-panel').style['opacity'] = '0';
@@ -39,6 +39,6 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
       $document[0].getElementById('intro-panel').style['display'] = 'none';
       $document[0].getElementById('main-panel').style['opacity'] = 1;
     }, 1000);
-  }, 7000);
+  }, 9000);
 
 });
