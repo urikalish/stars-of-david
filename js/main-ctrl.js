@@ -10,7 +10,6 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
   	twoStarDesc: 'Mild identity / Jewish father / childhood',
   	oneStarDesc: 'Weak identity / Jewish grandparent / origin',
     items: [],
-    footerFeedback: 'mailto:feedback@stars-of-david.com',
     footerText: 'by Uri Kalish'
   };
 
