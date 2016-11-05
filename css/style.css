@@ -40,6 +40,12 @@ a {
 	transition: 1s ease opacity;
 }
 
+.intro__content {
+	position: relative;
+	top: -33px;
+	text-align: center;
+}
+
 .intro__text {
 	font-size: 60px;
 }

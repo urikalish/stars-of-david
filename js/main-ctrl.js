@@ -5,14 +5,14 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
   
   function handleInto() {
     var elm;
-    for (i = 0; i < introText.length; i++) {
-      elm = $document[0].getElementById('intro-letter-' + i);
-      elm.style['transition'] = '5s ease all ' + (i*100) + 'ms';
-      elm.style['opacity'] = '1';
-    }
     for (i = 0; i < 3; i++) {
       elm = $document[0].getElementById('intro-star-' + i);
-      elm.style['transition'] = '5s ease all ' + (1500 + i*250) + 'ms';
+      elm.style['transition'] = '1s ease all ' + (i*2000) + 'ms';
+      elm.style['opacity'] = '1';
+    }
+    for (i = 0; i < introText.length; i++) {
+      elm = $document[0].getElementById('intro-letter-' + i);
+      elm.style['transition'] = '5s ease all ' + (6000 + i*100) + 'ms';
       elm.style['opacity'] = '1';
     }
     $timeout(function() {
@@ -21,7 +21,7 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
         $document[0].getElementById('intro-panel').style['display'] = 'none';
         $document[0].getElementById('main-panel').style['opacity'] = 1;
       }, 1000);
-    }, 6500);  
+    }, 12000);  
   }
 
   $scope.model = {
@@ -42,6 +42,6 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
 
   $timeout(function() {
     handleInto();
-  }, 5000);
+  }, 0);
 
 });
