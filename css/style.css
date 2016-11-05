@@ -196,15 +196,11 @@ a {
 }
 
 .footer {
-	display: flex;
-	justify-content: space-between;
 	padding: 10px;
-	height: 40px;
-	line-height: 20px;
 	font-size: 20px;
 	background-color: #445;
 }
 
-.footer__contact__link {
+.footer a {
 	text-decoration: none;
 }
