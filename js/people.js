@@ -36,7 +36,8 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Carole King'},
     {name: 'Carrie Fisher', score: 2},        
     {name: 'Chris Pine', score: 1},
-    {name: 'Coen Brothers'}, 
+    {name: 'Coen Brothers'},
+    {name: 'Craig David'},
     {name: 'Daniel Day-Lewis'},
     {name: 'Daniel Radcliffe'},
     {name: 'Dave Franco'},
@@ -104,6 +105,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Julianna Margulies'},
     {name: 'Julianne Moore', score: 1},
     {name: 'Justin Bartha'},
+    {name: 'Justin Kirk'},
     {name: 'Karl Marx'},
     {name: 'Kat Dennings'},
     {name: 'Kate Hudson'},
@@ -121,6 +123,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Liev Schreiber'},
     {name: 'Lisa Bonet'},
     {name: 'Lisa Kudrow'},
+    {name: 'Logan Lerman'},
     {name: 'Lou Reed'},
     {name: 'Louis C.K.', score: 1},
     {name: 'Mandy Patinkin'},
@@ -129,9 +132,10 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Marcel Proust'},
     {name: 'Marilyn Monroe'},
     {name: 'Mark Ivanir'},
+    {name: 'Mark Feuerstein'},
     {name: 'Mark Knopfler', score: 2},
-    {name: 'Mark-Paul Gosselaar', score: 1},
     {name: 'Mark Zuckerberg'},
+    {name: 'Mark-Paul Gosselaar', score: 1},
     {name: 'Marx Brothers'},
     {name: 'Matisyahu'},
     {name: 'Matthew Broderick'},
@@ -182,6 +186,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Stanley Kubrick'},
     {name: 'Steve Guttenberg'},
     {name: 'Steven Spielberg'},
+    {name: 'Steven Weber', wiki: 'Steven_Weber_(actor)'},
     {name: 'Sylvester Stallone', score: 1},
     {name: 'Tony Curtis'},
     {name: 'Vladimir Lenin', score: 1},  
@@ -190,7 +195,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Woody Allen'},
     {name: 'Zach Braff'},
     {name: 'Zac Efron'},
-    {name: 'Zoe_Kravitz', wiki:'Zo%C3%AB_Kravitz'}
+    {name: 'Zoe Kravitz', wiki: 'Zo%C3%AB_Kravitz'}
   ]
 
 });
