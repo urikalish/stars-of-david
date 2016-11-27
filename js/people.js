@@ -53,6 +53,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Elizabeth Berkley'},    
     {name: 'Elizabeth Taylor'},
     {name: 'Emile Berliner'},
+    {name: 'Emmanuelle Chriqui'},
     {name: 'Emmy Rossum'},
     {name: 'Enrique Iglesias', score: 1},
     {name: 'Eva Green'},
@@ -60,6 +61,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Ezra Miller'},
     {name: 'Franz Kafka'},
     {name: 'Fred Savage'},
+    {name: 'Gabriel Macht'},
     {name: 'Gal Gadot'},
     {name: 'Garry Kasparov', score: 2},
     {name: 'Gene Wilder'},
@@ -101,6 +103,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Julia Louis-Dreyfus', score: 1},
     {name: 'Julianna Margulies'},
     {name: 'Julianne Moore', score: 1},
+    {name: 'Justin Bartha'},
     {name: 'Karl Marx'},
     {name: 'Kat Dennings'},
     {name: 'Kate Hudson'},
@@ -185,7 +188,9 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'William Shatner'},
     {name: 'Winona Ryder'},            
     {name: 'Woody Allen'},
-    {name: 'Zac Efron'}
+    {name: 'Zach Braff'},
+    {name: 'Zac Efron'},
+    {name: 'Zoe_Kravitz', wiki:'Zo%C3%AB_Kravitz'}
   ]
 
 });
