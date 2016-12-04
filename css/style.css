@@ -121,6 +121,8 @@ a {
 
 .header__legend__text {
 	color: #ccc;
+	font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
 }
 
 .items {
@@ -175,6 +177,8 @@ a {
     text-overflow: ellipsis;
     white-space: nowrap;
     max-width: calc(100% - 4px);
+    font-family: helvetica, arial, sans-serif;
+	font-size: 14px;
 }
 
 .person__star {

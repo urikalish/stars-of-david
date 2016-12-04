@@ -152,7 +152,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Larry King'},
     {name: 'Larry Page'},
     {name: 'Lars Ulrich', score: 1},
-    {name: 'Laszlo Biro', wiki: 'L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3'},
+    {name: 'László Bíró', img: 'Laszlo_Biro', wiki: 'L%C3%A1szl%C3%B3_B%C3%ADr%C3%B3'},
     {name: 'Lauren Cohan'},
     {name: 'Lea Michele', score: 2},
     {name: 'Lenny Kravitz', score: 2},
@@ -187,8 +187,8 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Max Greenfield'},
     {name: 'Mayim Bialik'},
     {name: 'Mel Brooks'},
-    {name: 'Melanie Laurent', wiki: 'M%C3%A9lanie_Laurent'},
-    {name: 'Michael_Bolton'},
+    {name: 'Mélanie Laurent', img: 'Melanie_Laurent', wiki: 'M%C3%A9lanie_Laurent'},
+    {name: 'Michael Bolton'},
     {name: 'Michael Douglas', score: 2},
     {name: 'Michael Vartan'},
     {name: 'Michelle Trachtenberg'},
@@ -209,7 +209,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Patricia Arquette'},
     {name: 'Paul Auster'},
     {name: 'Paul Ehrlich'},
-    {name: 'Paul Erdos', wiki: 'Paul_Erd%C5%91s'},
+    {name: 'Paul Erdős', img:'Paul_Erdos', wiki: 'Paul_Erd%C5%91s'},
     {name: 'Paul Newman'},
     {name: 'Paul Rudd'},
     {name: 'Paula Abdul'},
@@ -226,7 +226,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Richard Feynman'},
     {name: 'River Phoenix'},
     {name: 'Robert Downey Jr.',score: 2},
-    {name: 'Rosie Huntington-Whiteley', score: 2},
+    {name: 'Rosie Huntington-Whiteley', score: 1},
     {name: 'Rube Goldberg'},
     {name: 'Sacha Baron Cohen'},
     {name: 'Sammy Davis Jr.'},
@@ -260,7 +260,11 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Woody Allen'},
     {name: 'Zac Efron'},
     {name: 'Zach Braff'},
-    {name: 'Zoe Kravitz', wiki: 'Zo%C3%AB_Kravitz'}
+    {name: 'Zoë Kravitz', img: 'Zoe_Kravitz', wiki: 'Zo%C3%AB_Kravitz'}
   ]
 
 });
+
+
+//Leonard Bernstein
+//Howard Stern

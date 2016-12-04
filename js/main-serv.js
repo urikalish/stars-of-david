@@ -25,7 +25,7 @@ angular.module('mainApp').factory('mainServ', function mainServ(people) {
 		items = shuffle(getPeople());
 		for (i = 0; i < items.length; i++) {
 			items[i].index = i;
-			items[i].img = items[i].img || ('img/' + items[i].name.split(' ').join('_') + '.jpg');
+			items[i].img = ('img/' + (items[i].img || items[i].name.split(' ').join('_')) + '.jpg');
 			items[i].score = items[i].score || 3;
 			items[i].wiki = 'https://en.wikipedia.org/wiki/' + (items[i].wiki || items[i].name.split(' ').join('_'));
 		}
