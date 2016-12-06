@@ -12,8 +12,8 @@ html {
 	width: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: "ITC Eras Light", sans-serif;
-	font-size: 16px;
+	font-family: helvetica, sans-serif;
+	font-size: 14px;
 }
 
 body {
@@ -47,6 +47,7 @@ a {
 }
 
 .intro__text {
+	font-family: "ITC Eras Light", helvetica, sans-serif;
 	font-size: 60px;
 }
 
@@ -86,6 +87,7 @@ a {
 }
 
 .header__title {
+	font-family: "ITC Eras Light", helvetica, sans-serif;
 	font-size: 60px;
 	text-shadow: 1px 1px #000;
 }
@@ -122,7 +124,6 @@ a {
 .header__legend__text {
 	color: #ccc;
 	font-family: helvetica, arial, sans-serif;
-	font-size: 14px;
 }
 
 .items {
@@ -176,9 +177,7 @@ a {
 	overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
-    max-width: calc(100% - 4px);
-    font-family: helvetica, arial, sans-serif;
-	font-size: 14px;
+    max-width: calc(100% - 4px);    
 }
 
 .person__star {
@@ -201,7 +200,6 @@ a {
 
 .footer {
 	padding: 10px;
-	font-size: 20px;
 	background-color: #445;
 }
 

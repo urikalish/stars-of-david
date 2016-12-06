@@ -32,7 +32,7 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
   	oneStarDesc: 'Weak identity / Jewish grandparent / origin',
     items: [],
     footerByText: 'Stars of David by Uri Kalish',
-    footerContactText: 'mailto:contact@stars-of-david.com'
+    footerContactText: 'contact@stars-of-david.com'
   };
 
   for (i = 0; i < introText.length; i++) {
