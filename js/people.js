@@ -14,6 +14,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Alyson Hannigan'},
     {name: 'Amanda Bynes'},
     {name: 'Amanda Peet'},
+    {name: 'Amar\'e Stoudemire', img: 'Amare_Stoudemire', wiki: 'Amar%27e_Stoudemire'},
     {name: 'Amy Schumer'},
     {name: 'Amy Winehouse'},
     {name: 'Andrew Garfield'},
@@ -99,6 +100,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Heinrich Heine', score: 2},
     {name: 'Helen Hunt', score: 1},
     {name: 'Henry Winkler'},
+    {name: 'Howard Stern'},
     {name: 'Ian Ziering'},
     {name: 'Idina Menzel'},
     {name: 'Isaac Asimov'},        
@@ -156,7 +158,8 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Lauren Cohan'},
     {name: 'Lea Michele', score: 2},
     {name: 'Lenny Kravitz', score: 2},
-    {name: 'Leon Trotsky'},           
+    {name: 'Leon Trotsky'},
+    {name: 'Leonard Bernstein'},
     {name: 'Leonard Cohen'},
     {name: 'Leonard Nimoy'},
     {name: 'Levi Strauss'},
@@ -178,6 +181,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Mark Feuerstein'},
     {name: 'Mark Ivanir'},
     {name: 'Mark Knopfler', score: 2},
+    {name: 'Mark Spitz'},
     {name: 'Mark Zuckerberg'},
     {name: 'Mark-Paul Gosselaar', score: 1},
     {name: 'Marvin Minsky'},
@@ -225,6 +229,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Richard Dreyfuss'},
     {name: 'Richard Feynman'},
     {name: 'River Phoenix'},
+    {name: 'Rob Reiner'},
     {name: 'Robert Downey Jr.',score: 2},
     {name: 'Rosie Huntington-Whiteley', score: 1},
     {name: 'Rube Goldberg'},
@@ -264,8 +269,3 @@ angular.module('mainApp').factory('people', function people() {
   ]
 
 });
-
-
-//Leonard Bernstein
-//Rob Reiner
-//Howard Stern
