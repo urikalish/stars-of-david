@@ -219,7 +219,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Paul Auster'},
     {name: 'Paul Ehrlich'},
     {name: 'Paul Erdős', img:'Paul_Erdos', wiki: 'Paul_Erd%C5%91s'},
-    {name: 'Paul Newman'},
+    {name: 'Paul Newman', score: 2},
     {name: 'Paul Rudd'},
     {name: 'Paula Abdul'},
     {name: 'Peter Falk'},
