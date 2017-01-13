@@ -38,6 +38,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Ben Stiller'},
     {name: 'Benjamin Disraeli'},
     {name: 'Bette Midler'},
+    {name: 'Bill Maher'},
     {name: 'Billy Crystal'},
     {name: 'Billy Joel'},
     {name: 'Bob Dylan'},
@@ -201,6 +202,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Mayim Bialik'},
     {name: 'Mel Brooks'},
     {name: 'Mélanie Laurent', img: 'Melanie_Laurent', wiki: 'M%C3%A9lanie_Laurent'},
+    {name: 'Michael Bloomberg'},
     {name: 'Michael Bolton'},
     {name: 'Michael Douglas', score: 2},
     {name: 'Michael Landon'},
@@ -244,6 +246,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Rosie Huntington-Whiteley', score: 1},
     {name: 'Rube Goldberg'},
     {name: 'Sacha Baron Cohen'},
+    {name: 'Sam Mendes'},
     {name: 'Sammy Davis Jr.'},
     {name: 'Sara Paxton'},
     {name: 'Sarah Jessica Parker'},    
@@ -268,8 +271,10 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Steven Spielberg'},
     {name: 'Steven Weber', wiki: 'Steven_Weber_(actor)'},
     {name: 'Sylvester Stallone', score: 1},
+    {name: 'Thomas Friedman'},
     {name: 'Tony Curtis'},
-    {name: 'Vladimir Lenin', score: 1},  
+    {name: 'Vladimir Lenin', score: 1},
+    {name: 'Warner Bros.'},  
     {name: 'William Shatner'},
     {name: 'Winona Ryder'},            
     {name: 'Woody Allen'},
@@ -277,5 +282,8 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Zach Braff'},
     {name: 'Zoë Kravitz', img: 'Zoe_Kravitz', wiki: 'Zo%C3%AB_Kravitz'}
   ]
+
+  //Adi Shamir
+  //Dan Bricklin
 
 });
