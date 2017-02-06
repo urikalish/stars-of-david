@@ -286,5 +286,7 @@ angular.module('mainApp').factory('people', function people() {
   //Adi Shamir
   //Beck (2)
   //Dan Bricklin
+  //Stephen Wolfram
+  //Beck 1
 
 });
