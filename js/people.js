@@ -5,6 +5,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Adam Lambert'},
     {name: 'Adam Levine'},
     {name: 'Adam Sandler'},
+    {name: 'Adi_Shamir'},
     {name: 'Adrien Brody'},
     {name: 'Alan Arkin'},
     {name: 'Albert A. Michelson'},
@@ -54,6 +55,8 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Chris Pine', score: 1},
     {name: 'Coen Brothers'},
     {name: 'Craig David'},
+    {name: 'Dan Ariely'},
+    {name: 'Dan Bricklin'},
     {name: 'Daniel Day-Lewis'},
     {name: 'Daniel Radcliffe'},
     {name: 'Danny Kaye'},
@@ -263,10 +266,12 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Seth Rogen'},
     {name: 'Shia LaBeouf'},
     {name: 'Shiri Appleby'},
+    {name: 'Shlomit Malka'},
     {name: 'Sigmund Freud'},
     {name: 'Simon and Garfunkel', wiki: 'Simon_%26_Garfunkel'},
     {name: 'Stanford R. Ovshinsky'},
     {name: 'Stanley Kubrick'},
+    {name: 'Stephen Wolfram'},
     {name: 'Steve Guttenberg'},
     {name: 'Steven Spielberg'},
     {name: 'Steven Weber', wiki: 'Steven_Weber_(actor)'},
@@ -282,11 +287,5 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Zach Braff'},
     {name: 'Zoë Kravitz', img: 'Zoe_Kravitz', wiki: 'Zo%C3%AB_Kravitz'}
   ]
-
-  //Adi Shamir
-  //Beck (2)
-  //Dan Bricklin
-  //Stephen Wolfram
-  //Beck 1
 
 });
