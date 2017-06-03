@@ -24,6 +24,12 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
     }, 11000);  
   }
 
+  function skipInto() {
+    var elm;
+    $document[0].getElementById('intro-panel').style['display'] = 'none';
+    $document[0].getElementById('main-panel').style['opacity'] = 1;
+  }
+
   $scope.model = {
     introTextLetters : [],
   	headerTitle: 'Stars of David',
@@ -42,7 +48,7 @@ angular.module('mainApp').controller('mainCtrl', function mainCtrl($scope, $docu
   $scope.model.items = mainServ.getItems();
 
   $timeout(function() {
-    handleInto();
-  }, 1000);
+    skipInto();
+  }, 0);
 
 });
