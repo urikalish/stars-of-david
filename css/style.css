@@ -92,10 +92,24 @@ a {
 	text-shadow: 1px 1px #000;
 }
 
+@keyframes animation-legend-appear {
+  0% {
+	opacity: 0;
+	margin-right: 30%;
+  }
+  100% {
+	opacity: 1;
+	margin-right: 0;
+  }
+}
+
 .header__legend {
+	opacity: 1;
+	margin-right: 0;
+	animation: animation-legend-appear 4s cubic-bezier(0.250, 0.100, 0.250, 1.000);
 	display: flex;
 	flex-direction: column;
-	justify-content: space-between;
+	justify-content: space-between;	
 }
 
 .header__legend__item {
