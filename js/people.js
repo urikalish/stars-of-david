@@ -1,6 +1,9 @@
 angular.module('mainApp').factory('people', function people() {
 
-  return [    
+  return [
+  //David Benioff
+  //D.B. Weiss
+  //Ania Bukstein
     {name: 'Adam Brody'},
     {name: 'Adam Lambert'},
     {name: 'Adam Levine'},
@@ -83,6 +86,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Emmy Rossum'},
     {name: 'Enrique Iglesias', score: 1},
     {name: 'Eric Dane'},
+    {name: 'Esti Ginzburg'},
     {name: 'Eva Green'},
     {name: 'Evan Rachel Wood'},
     {name: 'Ezra Miller'},
@@ -146,6 +150,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Jonas Salk'},
     {name: 'Joseph Gordon-Levitt'},
     {name: 'Josh Bowman', score: 2},
+    {name: 'Josh Brener'},
     {name: 'Josh Charles'},
     {name: 'Josh Radnor'},
     {name: 'Julia Louis-Dreyfus', score: 1},
@@ -177,6 +182,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Levi Strauss'},
     {name: 'Lewis Black'},
     {name: 'Liev Schreiber'},
+    {name: 'Lior Raz'},
     {name: 'Lisa Bonet'},
     {name: 'Lisa Edelstein'},
     {name: 'Lisa Kudrow'},
@@ -283,8 +289,10 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'William Shatner'},
     {name: 'Winona Ryder'},            
     {name: 'Woody Allen'},
+    {name: 'Yuval Noah Harari'},
     {name: 'Zac Efron'},
     {name: 'Zach Braff'},
+    {name: 'Zach Woods'},
     {name: 'Zoë Kravitz', img: 'Zoe_Kravitz', wiki: 'Zo%C3%AB_Kravitz'}
   ]
 
