@@ -165,8 +165,8 @@ a {
 	height: 240px;
 	border: 1px solid #000;
 	border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-    transition: 0.5s ease all;
+	border-bottom-right-radius: 30px;
+	transition: 0.5s ease all;
 }
 
 .person__img:hover {
@@ -174,14 +174,14 @@ a {
 }
 
 .person__info {
-	height: 38px;
-	width: 100%;
-    position: absolute;    
-    bottom: 0;
-    left: 0;
-    background-color: #000;    
-    opacity: 0.5;
-    border-bottom-right-radius: 30px;
+	height: 35px;
+    	width: calc(100% - 2px);
+    	position: absolute;
+    	bottom: 1px;
+    	left: 1px;
+    	background-color: #000;
+    	opacity: 0.5;
+    	border-bottom-right-radius: 30px;
 }
 
 .person__name {
@@ -189,9 +189,9 @@ a {
 	left: 2px;
 	bottom: 18;
 	overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    max-width: calc(100% - 4px);    
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: calc(100% - 4px);    
 }
 
 .person__star {
