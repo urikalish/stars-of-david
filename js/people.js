@@ -4,7 +4,13 @@ angular.module('mainApp').factory('people', function people() {
   //David Benioff
   //D.B. Weiss
   //Ania Bukstein
-  //Ben Shapiro  
+  //Noa Tishby
+  //Rotem Sela
+  //Moran Atias
+  //Agam Rodberg
+  //Ninet Tayeb
+  //Ben Shapiro
+  //Stanford R. Ovshinsky
     {name: 'Adam Brody'},
     {name: 'Adam Lambert'},
     {name: 'Adam Levine'},
