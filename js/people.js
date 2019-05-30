@@ -4,6 +4,7 @@ angular.module('mainApp').factory('people', function people() {
   //David Benioff
   //D.B. Weiss
   //Ania Bukstein
+  //Ben Shapiro  
     {name: 'Adam Brody'},
     {name: 'Adam Lambert'},
     {name: 'Adam Levine'},
