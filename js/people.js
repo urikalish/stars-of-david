@@ -10,6 +10,8 @@ angular.module('mainApp').factory('people', function people() {
   //Agam Rodberg
   //Ninet Tayeb
   //Ben Shapiro
+  //Ilan Ramon
+  //David Draiman
   //Stanford R. Ovshinsky
     {name: 'Adam Brody'},
     {name: 'Adam Lambert'},
