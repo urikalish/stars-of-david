@@ -1,24 +1,13 @@
 angular.module('mainApp').factory('people', function people() {
 
   return [
-  //David Benioff
-  //D.B. Weiss
-  //Ania Bukstein
-  //Noa Tishby
-  //Rotem Sela
-  //Moran Atias
-  //Agam Rodberg
-  //Ninet Tayeb
-  //Ben Shapiro
-  //Ilan Ramon
-  //David Draiman
-  //Stanford R. Ovshinsky
     {name: 'Adam Brody'},
     {name: 'Adam Lambert'},
     {name: 'Adam Levine'},
     {name: 'Adam Sandler'},
     {name: 'Adi Shamir'},
     {name: 'Adrien Brody'},
+    {name: 'Agam_Rudberg'},
     {name: 'Alan Arkin'},
     {name: 'Albert A. Michelson'},
     {name: 'Albert Einstein'},
@@ -34,6 +23,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Andrew Garfield'},
     {name: 'Andy Kaufman'},
     {name: 'Andy Samberg'},
+    {name: 'Ania Bukstein'},
     {name: 'Anton Yelchin'},
     {name: 'Arthur Miller'},
     {name: 'Asaf Avidan'},
@@ -48,6 +38,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Ben Barnes', wiki: 'Ben_Barnes_(actor)'},
     {name: 'Ben Feldman', wiki: 'Ben_Feldman_(actor)'},
     {name: 'Ben Foster'},
+    {name: 'Ben Shapiro'},
     {name: 'Ben Stiller'},
     {name: 'Benjamin Disraeli'},
     {name: 'Bette Midler'},
@@ -67,6 +58,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Chris Pine', score: 1},
     {name: 'Coen Brothers'},
     {name: 'Craig David'},
+    {name: 'D.B. Weiss'},
     {name: 'Dan Ariely'},
     {name: 'Dan Bricklin'},
     {name: 'Daniel Day-Lewis'},
@@ -76,8 +68,10 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Dave Franco'},
     {name: 'Dave Mustaine'},
     {name: 'David Beckham', score: 2},
+    {name: 'David Benioff'},
     {name: 'David Blaine', score: 2},
     {name: 'David Copperfield', wiki: 'David_Copperfield_(illusionist)'},
+    {name: 'David Draiman'},
     {name: 'David Duchovny', score: 2},
     {name: 'David Lee Roth'},
     {name: 'David Schwimmer'},
@@ -126,6 +120,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Howard Stern'},
     {name: 'Ian Ziering'},
     {name: 'Idina Menzel'},
+    {name: 'Ilan Ramon'},
     {name: 'Isaac Asimov'},        
     {name: 'Isla Fisher'},
     {name: 'J. D. Salinger'},
@@ -228,6 +223,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Michelle Trachtenberg'},
     {name: 'Mila Kunis'},
     {name: 'Mili Avital'},
+    {name: 'Moran Atias'},
     {name: 'Natalie Portman'},
     {name: 'Natasha Lyonne'},
     {name: 'Neil Diamond'},
@@ -235,6 +231,8 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Neve Campbell', score: 2},
     {name: 'Niels Bohr'},
     {name: 'Nikki Reed'},
+    {name: 'Ninet Tayeb'},
+    {name: 'Noa Tishby'},
     {name: 'Noah Wyle', score: 2},
     {name: 'Nora Arnezeder'},
     {name: 'Odeya Rush'},
