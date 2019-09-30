@@ -7,7 +7,7 @@ angular.module('mainApp').factory('people', function people() {
     {name: 'Adam Sandler'},
     {name: 'Adi Shamir'},
     {name: 'Adrien Brody'},
-    {name: 'Agam_Rudberg'},
+    {name: 'Agam Rudberg'},
     {name: 'Alan Arkin'},
     {name: 'Albert A. Michelson'},
     {name: 'Albert Einstein'},
