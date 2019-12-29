@@ -1,4 +1,28 @@
+Stars of David - Awesome Jewish People
+
 https://raw.githack.com/urikalish/stars-of-david/master/index.html
+
+---
+
+* Jewish actors
+* Jewish actresses
+* Jewish artists
+* Jewish celebrities
+* Jewish celebs
+* Jewish comedians
+* Jewish designers
+* Jewish directors
+* Jewish inventors
+* Jewish models
+* Jewish musicians
+* Jewish philosophers
+* Jewish politicians
+* Jewish producers
+* Jewish scientists
+* Jewish singers
+* Jewish writers
+
+---
 
 1. Adam Brody
 1. Adam Lambert
