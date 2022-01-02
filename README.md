@@ -70,7 +70,6 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Billy Joel
 1. Bob Dylan
 1. Bob Kahn
-1. Bob Marley
 1. Bob Saget
 1. Brooke Burke
 1. Bruno Mars
@@ -82,8 +81,6 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Coen Brothers
 1. Craig David
 1. D.B. Weiss
-1. Dan Ariely
-1. Dan Bricklin
 1. Daniel Day-Lewis
 1. Daniel Radcliffe
 1. Danny Kaye
@@ -107,7 +104,6 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Elizabeth Banks    
 1. Elizabeth Berkley    
 1. Elizabeth Taylor
-1. Emile Berliner
 1. Emmanuelle Chriqui
 1. Emmy Rossum
 1. Enrique Iglesias
@@ -123,6 +119,7 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Gal Gadot
 1. Garry Kasparov
 1. Garry Shandling
+1. Gary Gulman
 1. Gene Simmons
 1. Gene Wilder
 1. George Gershwin
@@ -141,6 +138,7 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Helen Hunt
 1. Henry Winkler
 1. Howard Stern
+1. Ian Nepomniachtchi
 1. Ian Ziering
 1. Idina Menzel
 1. Ilan Ramon
@@ -180,6 +178,7 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Josh Brener
 1. Josh Charles
 1. Josh Radnor
+1. Judit Polgár
 1. Julia Louis-Dreyfus
 1. Julianna Margulies
 1. Julianne Moore
@@ -206,8 +205,10 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Leonard Cohen
 1. Leonard Nimoy
 1. Levi Strauss
+1. Levon Aronian
 1. Lewis Black
 1. Liev Schreiber
+1. Linoy Ashram
 1. Lior Raz
 1. Lisa Bonet
 1. Lisa Edelstein
@@ -243,6 +244,7 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Michael Landon
 1. Michael Vartan
 1. Michelle Trachtenberg
+1. Miki Berkovich
 1. Mila Kunis
 1. Mili Avital
 1. Moran Atias
@@ -250,7 +252,6 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Natasha Lyonne
 1. Neil Diamond
 1. Neil Sedaka	  
-1. Neri Oxman	  
 1. Neve Campbell
 1. Niels Bohr
 1. Nikki Reed
@@ -263,7 +264,6 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Oscar Isaac
 1. Patricia Arquette
 1. Paul Auster
-1. Paul Ehrlich
 1. Paul Erdős
 1. Paul Newman
 1. Paul Rudd
@@ -296,7 +296,6 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Scott Mechlowicz
 1. Sean Penn
 1. Selma Blair
-1. Selman Waksman
 1. Sergey Brin
 1. Seth Green
 1. Seth Rogen
@@ -313,6 +312,7 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Steven Weber
 1. Sylvester Stallone
 1. Thomas Friedman
+1. Timothée Chalamet
 1. Tony Curtis
 1. Vladimir Lenin
 1. Warner Bros.  
