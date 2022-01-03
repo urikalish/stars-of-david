@@ -96,6 +96,7 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. David Lee Roth
 1. David Schwimmer
 1. Debra Messing
+1. Deni Avdija
 1. Dianna Agron
 1. Drake
 1. Dustin Hoffman
@@ -244,7 +245,6 @@ https://raw.githack.com/urikalish/stars-of-david/master/index.html
 1. Michael Landon
 1. Michael Vartan
 1. Michelle Trachtenberg
-1. Miki Berkovich
 1. Mila Kunis
 1. Mili Avital
 1. Moran Atias
